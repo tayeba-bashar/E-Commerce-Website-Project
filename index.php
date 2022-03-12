@@ -143,7 +143,7 @@ if(isset($_SESSION["uid"])){
 							</div>
 						</div> -->
 					</div>
-					<div class="panel-footer">&copy; <?php echo date("Y"); ?></div>
+					<div class="panel-footer"> <?php echo date("Y-m-d"); ?></div>
 				</div>
 			</div>
 			<div class="col-md-1"></div>
